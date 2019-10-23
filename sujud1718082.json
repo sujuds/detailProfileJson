@@ -1,0 +1,52 @@
+{
+    "dataKos" : {
+        "nama": "Kos Bali Hai",
+        "alamat": "acara malang, Perumahan Royal kampus No. B1, Jl. Golf, Tasikmadu, Kec. Lowokwaru, Kota Malang, Jawa Timur",
+        "harga": 500000,
+        "jumlahKamar": 4,
+        "jumlahPenghuni": 4,
+        "fasilitas": ["Kamar mandi dalam, Lemari, Meja, Kasur, Kursi"]
+    },
+    "dataPenghuni" : [
+        {
+            "nama": "Sujud Satwikayana",
+            "jenisKelamin": "Laki-Laki",
+            "agama": "Hindu",
+            "asal": "Klungkung, Bali, Indonesia",
+            "jurusan": "Teknik Informatika S1",
+            "nim": "1718082",
+            "hobi" : ["Coding", "Olahraga"],
+            "foto" : "sujud.jpg"
+        },
+        {
+            "nama": "Putu Arya Pratamaarta Pinatih",
+            "jenisKelamin": "Laki-Laki",
+            "agama": "Hindu",
+            "asal": "Denpasar, Bali, Indonesia",
+            "jurusan": "Teknik Industri S1",
+            "nim": "1713020",
+            "hobi" : ["Futsal", "Bermain Game"],
+            "foto" : "arpin.jpg"
+        },
+        {
+            "nama": "Putu Agus Adnyana Pratama Widana",
+            "jenisKelamin": "Laki-Laki",
+            "agama": "Hindu",
+            "asal": "Singaraja, Bali, Indonesia",
+            "jurusan": "Teknik Mesin S1",
+            "nim": "1711082",
+            "hobi" : ["Futsal", "Bermain Game"],
+            "foto" : "ipong.jpg"
+        },
+        {
+            "nama": "Ewaldo Andreas",
+            "jenisKelamin": "Laki-Laki",
+            "agama": "Kristen",
+            "asal": "Jakarta, Indonesia",
+            "jurusan": "Teknik Industri S1",
+            "nim": "1713049",
+            "hobi" : ["Bulutangkis", "Basket"],
+            "foto" : "aldo.jpg"
+        }
+    ]
+}
