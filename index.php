@@ -41,7 +41,7 @@
                     <p class="card-text">Mahasiswa Jurusan <?= $p['jurusan']; ?>, dengan NIM <?= $p['nim']; ?> ini berasal dari <?= $p['asal']; ?>.</p> 
                 </div>
                 <div class="card-footer">
-                    <button class="btn btn-primary float-right edit" data-toggle="modal" data-target="#exampleModalScrollable" data-id="<?= $p['nim']; ?>">Lihat Profile</button>
+                    <button class="btn btn-primary float-right detail" data-toggle="modal" data-target="#exampleModalScrollable" data-id="<?= $p['nim']; ?>">Lihat Profile</button>
                 </div>
             </div>
             <?php endforeach; ?>
@@ -84,7 +84,7 @@
 
     <script>
         $(document).ready(function(){
-            $('.edit').click(function(){
+            $('.detail').click(function(){
                 var nim = $(this).attr("data-id");
                 
                 $.getJSON('sujud1718082.json', function (data) {
